@@ -1,0 +1,6 @@
+company,title,location,domain,required_skills,preferred_skills,date_posted,apply_url,status
+Garmin,Software Engineer Intern,Olathe KS,Software,"Python;SQL;Git","Docker;AWS",2026-06-01,https://example.com,interested
+T-Mobile,Data Analyst Intern,Overland Park KS,Data Analytics,"Python;SQL;Excel","Tableau;Power BI",2026-06-02,https://example.com,interested
+H&R Block,AI Intern,Kansas City MO,AI ML,"Python;pandas;scikit-learn","NLP;FastAPI",2026-06-03,https://example.com,watching
+Children's Mercy,Data Engineering Intern,Kansas City MO,Healthcare Data,"SQL;Python;ETL","PostgreSQL;Airflow",2026-06-04,https://example.com,interested
+Federal Reserve Bank of Kansas City,Research Data Intern,Kansas City MO,Finance Data,"Python;SQL;Statistics","R;Tableau",2026-06-05,https://example.com,watching
