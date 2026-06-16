@@ -1,4 +1,4 @@
-company,title,location,domain,required_skills,preferred_skills,date_posted,apply_url,status
+company,title,location,domain,required_skills,preferred_skills,posted_date,apply_url,status
 Garmin,Software Engineer Intern,Olathe KS,Software,"Python;SQL;Git","Docker;AWS",2026-06-01,https://example.com,interested
 T-Mobile,Data Analyst Intern,Overland Park KS,Data Analytics,"Python;SQL;Excel","Tableau;Power BI",2026-06-02,https://example.com,interested
 H&R Block,AI Intern,Kansas City MO,AI ML,"Python;pandas;scikit-learn","NLP;FastAPI",2026-06-03,https://example.com,watching
