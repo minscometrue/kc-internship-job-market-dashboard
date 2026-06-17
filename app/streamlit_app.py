@@ -1,11 +1,5 @@
-import sys
-from pathlib import Path
 import streamlit as st
-
-PROJECT_ROOT = Path(__file__).resolve().parents[1]
-sys.path.append(str(PROJECT_ROOT / "src"))
-
-from job_market.data_loader import load_job_postings
+from job_market import load_job_postings
 
 
 st.set_page_config(
@@ -16,8 +10,7 @@ st.set_page_config(
 
 st.title("KC Internship & Job Market Intelligence Dashboard")
 
-csv_path = PROJECT_ROOT / "data" / "raw" / "job_postings_sample.csv"
-df = load_job_postings(csv_path)
+df = load_job_postings("data/raw/job_postings_sample.csv")
 
 st.subheader("Sample Job Postings")
 st.dataframe(df)

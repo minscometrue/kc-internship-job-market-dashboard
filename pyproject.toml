@@ -1,0 +1,30 @@
+[project]
+name = "kc-internship-job-market-dashboard"
+version = "0.1.0"
+description = "A Python dashboard project that collects and analyzes entry-level and internship job postings for Python, Data, AI, and Software roles in the Kansas City area."
+authors = [
+    {name = "minsungk",email = "minscometrue@gmail.com"}
+]
+license = "MIT License"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pathlib (>=1.0.1,<2.0.0)",
+    "streamlit (>=1.58.0,<2.0.0)",
+    "pandas (>=3.0.3,<4.0.0)"
+]
+
+[dependency-groups]
+dev = [
+    "flake8 (>=7.3.0,<8.0.0)",
+    "mypy (>=2.1.0,<3.0.0)",
+    "pandas-stubs (>=3.0.3.260530,<4.0.0.0)"
+]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+packages = [{ include = "job_market", from = "src" }]
+include = ["src/job_market/py.typed"]
